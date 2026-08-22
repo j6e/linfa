@@ -123,7 +123,6 @@ fn lars_path<F: Float>(
     }
 
     loop {
-        
         let mut c_idx = 0;
         let mut c_ = F::zero();
         let c = if !cov.is_empty() {
